@@ -2,9 +2,9 @@
 BtcHub Website
 
 ##Getting Started
-Here, you will Our website using PHP. Before begin, be sure to have a code editor (VS Code Recomended)[https://code.visualstudio.com/] and some working knowledge of HTML, javacript and CSS.
+Here, you will Our website using PHP. Before begin, be sure to have a code editor [VS Code Recomended](https://code.visualstudio.com/) and some working knowledge of HTML, javacript and CSS.
 
-If you're just starting out in web development, (start learning from here »)[https://www.tutorialrepublic.com/html-tutorial/]
+If you're just starting out in web development, [start learning from here »](https://www.tutorialrepublic.com/html-tutorial/)
 
 Well, let's get straight into it.
 
@@ -18,4 +18,4 @@ You can either install them individually or choose a pre-configured package for 
 
 WampServer is a Windows web development environment. It allows you to create web applications with Apache2, PHP and a MySQL database. It will also provide the MySQL administrative tool PhpMyAdmin to easily manage your databases using a web browser.
 
-The official website for downloading and installation instructions for the (WampServer:)[http://www.wampserver.com/en/]
+The official website for downloading and installation instructions for the [WampServer:](http://www.wampserver.com/en/)
