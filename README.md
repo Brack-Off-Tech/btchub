@@ -2,7 +2,7 @@
 BtcHub Website
 
 ##Getting Started
-Here, you will Our website using PHP. Before begin, be sure to have a code editor [VS Code Recomended](https://code.visualstudio.com/) and some working knowledge of HTML, javacript and CSS.
+Here, you will Our website using PHP. Before begin, be sure to have a code editor [VS Code Recomended](https://code.visualstudio.com/) and some working knowledge of PHP, HTML, javacript and CSS.
 
 If you're just starting out in web development, [start learning from here »](https://www.tutorialrepublic.com/html-tutorial/)
 
