@@ -1,5 +1,5 @@
 <?php
-include 'web/router.php';
+include 'router.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $router = new router($request);
