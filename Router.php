@@ -1,16 +1,20 @@
 <?php
-class Router{
-	private $request;
-	public function __construct($request){
-		$this->request = $request;
-	}
-	public function get($route, $file){
-		$uri = trim( $this->request, "/" );
-		$uri = explode("/", $uri);
-		if($uri[0] == trim($route, "/")){
-			array_shift($uri);
-			$args = $uri;
-			require $file . '.php';
-		}
-	}
+$request = $_SERVER['REQUEST_URI'];
+
+switch ($request) {
+    case '/' :
+        require __DIR__ . '/public/views/index.php';
+        break;
+    case '' :
+        require __DIR__ . '/public/views/index.php';
+        break;
+    case '/about' :
+        require __DIR__ . '/public/views/about.php';
+        break;
+    case '/contact' :
+        require __DIR__ . '/public/views/contact.php';
+        break;
+    default:
+        require __DIR__ . '/public/views/404.php';
+        break;
 }
