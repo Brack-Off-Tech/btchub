@@ -1,5 +1,5 @@
 <?php
-class Router{
+class router{
 	private $request;
 	public function __construct($request){
 		$this->request = $request;
