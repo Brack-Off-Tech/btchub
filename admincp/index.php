@@ -1,14 +1,1 @@
-<?php
-$request = $_SERVER['REQUEST_URI'];
-
-switch ($request) {
-    case '/' :
-        require __DIR__ . '/public/views/index.php';
-        break;
-    case '' :
-        require __DIR__ . '/public/views/index.php';
-        break;
-    case 'admin/dashboard' :
-        require __DIR__ . '/public/views/components/dashboard.php';
-        break;
-    
+mnvlkjv,
