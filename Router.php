@@ -14,6 +14,9 @@ switch ($request) {
     case '/contact' :
         require __DIR__ . '/public/views/contact.php';
         break;
+    case '/potfolio' :
+        require __DIR__ . '/public/views/potfilio.php';    
+        break;
     default:
         require __DIR__ . '/public/views/404.php';
         break;
