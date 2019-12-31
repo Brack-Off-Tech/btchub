@@ -21,7 +21,7 @@ define("PATH_CONFIG", PATH_ROOT . "config" . DIRECTORY_SEPARATOR);
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'BtcHub',
         'site_url' => '',
         'pretty_uri' => true,
         'nav_menu' => [
@@ -30,8 +30,8 @@ function config($key = '')
             'products' => 'Products',
             'contact' => 'Contact',
         ],
-        'template_path' => 'template',
-        'content_path' => 'content',
+        'template_path' => 'public',
+        'content_path' => 'public',
         'version' => 'v3.0',
     ];
     return isset($config[$key]) ? $config[$key] : null;
