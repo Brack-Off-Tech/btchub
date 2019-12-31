@@ -19,3 +19,14 @@ You can either install them individually or choose a pre-configured package for 
 WampServer is a Windows web development environment. It allows you to create web applications with Apache2, PHP and a MySQL database. It will also provide the MySQL administrative tool PhpMyAdmin to easily manage your databases using a web browser.
 
 The official website for downloading and installation instructions for the [WampServer:](http://www.wampserver.com/en/)
+
+## Concepts
+
+The project covers these programming concepts:
+
+ * Variables
+ * Arrays
+ * Functions
+ * Pretty links *(/about) with fallback to query string (?page=about)*
+ * Basic example of separation of concerns *(functionality, template, content)*
+
